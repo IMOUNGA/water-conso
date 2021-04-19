@@ -1,0 +1,26 @@
+{
+  "name": "water-caillou",
+  "version": "1.0.0",
+  "description": "134 Avenue Albert Caillou consommation d'eau",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IMOUNGA/wCaillou.git"
+  },
+  "author": "Romann IMOUNGA",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IMOUNGA/wCaillou/issues"
+  },
+  "homepage": "https://github.com/IMOUNGA/wCaillou#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.3",
+    "nodemon": "^2.0.7"
+  }
+}
