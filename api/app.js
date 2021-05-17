@@ -1,5 +1,6 @@
 const express = require('express');
 const bodyParser = require('body-parser');
+const cors = require('cors');
 
 const app = express();
 
@@ -8,7 +9,8 @@ const { mongoose } = require('./db/mongoose');
 const { Statement, Tenant } = require('./db/models/index');
 
 // Parse application/json
-app.use(bodyParser.json());
+app.use(bodyParser.json())
+    .use(cors());
 
 
 
