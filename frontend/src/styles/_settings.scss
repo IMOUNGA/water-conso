@@ -1,0 +1,32 @@
+$background-color-body: #5BC3EB;
+$text-color: #707070;
+$text-color-primary: #fff;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  position: relative;
+  height: 100%;
+  background-color: $background-color-body;
+}
+
+#root {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.main-wrapper {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  flex-wrap: wrap;
+  overflow: hidden;
+}

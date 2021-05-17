@@ -1,0 +1,24 @@
+.apartment-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  height: 367px;
+  text-align: center;
+
+
+  font-size: 1.5rem;
+  font-weight: bold;
+  -webkit-text-stroke: .4px $text-color;
+  color: $text-color-primary;
+  text-shadow: 0 3px 6px #000;
+
+
+  background-image: url("../../assets/home.jpg");
+  background-position: center;
+  background-size: cover;
+
+  border: 10px solid white;
+  border-radius: 2%;
+
+}
