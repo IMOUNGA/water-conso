@@ -24,11 +24,15 @@ const Tenants = () => {
 
     return (
         <div className="tenants-list-wrapper">
-            {
-                datas.map((data) => (
-                    <Card data={data} key={data.apartment}/>
-                ))
-            }
+            <p>Consommations</p>
+            <ul>
+                {
+                    datas.map((data) => (
+                        <Card data={data} key={data.apartment}/>
+                    ))
+                }
+            </ul>
+
         </div>
     )
 }

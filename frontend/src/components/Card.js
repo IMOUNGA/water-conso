@@ -30,28 +30,26 @@ const Card = ({data}) => {
     }
 
     return (
-        <div className="card-tenant">
+        <li className="card-tenant">
             <div className="generals-infos">
-                <h4>{data.apartment}</h4>
+                <h4 className="bold-infos">Apt.{data.apartment}</h4>
                 <p>{data.family}</p>
             </div>
             <p>Voir Plus ></p>
             <ul>
                 <div className="totals-infos">
                     <li>
-                        <p>{totalConso()}<br/>Total</p>
+                        <p><span className="bold-infos">{totalConso()}</span><br/>Total</p>
                     </li>
                     <li>
-                        <p>103<br/>Mois</p>
+                        <p><span className="bold-infos">103</span><br/>Mois</p>
                     </li>
                 </div>
                 <li>
-                    <p>7<br/>Moyenne</p>
+                    <p className="moyenne-info"><span className="bold-infos">7</span><br/>Moyenne</p>
                 </li>
             </ul>
-
-
-        </div>
+        </li>
     )
 }
 

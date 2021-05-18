@@ -1,6 +1,27 @@
+@font-face {
+  font-family: 'freeSans-Helvetica';
+  src: url("../assets/fonts/FreeSans-Helvetica/FreeSans.otf") format("otf");
+}
+@font-face {
+  font-family: 'freeSans-Bold-Helvetica';
+  src: url("../assets/fonts/FreeSans-Helvetica/FreeSansBold.otf") format("otf");
+}
+@font-face {
+  font-family: 'pragmatica-Extraligt-Helvetica';
+  src: url("../assets/fonts/pragmatica-light/Pragmatica-ExtraLight.woff") format("woff");
+}
+
 $background-color-body: #5BC3EB;
 $text-color: #707070;
 $text-color-primary: #fff;
+$text-color-green: #629460;
+
+$text-font-family-primary: 'freeSans-Helvetica', sans-serif;
+$text-font-family-primary-bold: 'freeSans-Bold-Helvetica', sans-serif;
+$text-font-family-secondary: 'pragmatica-Extraligt-Helvetica',sans-serif;
+
+$text-font-size-number-card: 31px;
+
 
 * {
   margin: 0;
@@ -28,5 +49,5 @@ body {
   height: 100%;
   width: 100%;
   flex-wrap: wrap;
-  overflow: hidden;
+  overflow-x: hidden;
 }

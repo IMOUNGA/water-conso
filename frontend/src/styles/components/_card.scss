@@ -1,3 +1,70 @@
-li {
-  list-style-type: none;
+.card-tenant {
+  position: relative;
+  border-radius: 11px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, .5);
+  padding: 20px;
+  margin-bottom: 25px;
+  background: linear-gradient(130deg, #73D7FA 55%, #fff);
+
+
+  ul {
+    display: flex;
+    text-align: center;
+    margin-top: 25px;
+
+    > li {
+      display: flex;
+      justify-content: flex-end;
+      width: 100%;
+      margin-right: 0;
+    }
+  }
+
+  li {
+    list-style-type: none;
+  }
+
+  .generals-infos {
+    text-shadow: 0 0 3px rgba(0, 0, 0, .2);
+
+    :first-child {
+      font-size: 20px;
+    }
+
+    :last-child {
+
+    }
+  }
+
+  .bold-infos {
+    font-family: $text-font-family-primary-bold;
+    font-weight: bold;
+  }
+
+  .totals-infos {
+    display: flex;
+    text-align: center;
+
+
+  }
+
+  li {
+    margin-right: 30px;
+    text-shadow: 0 0 3px rgba(0, 0, 0, .2);
+
+    span {
+      font-size: $text-font-size-number-card;
+    }
+  }
+
+  > p {
+    position: absolute;
+    top: 23px;
+    right: 18px;
+    color: #AA78A6;
+  }
+
+  .moyenne-info {
+    color: $text-color-green;
+  }
 }

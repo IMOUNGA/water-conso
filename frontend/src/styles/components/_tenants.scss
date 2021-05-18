@@ -1,0 +1,13 @@
+.tenants-list-wrapper {
+  margin-top: 40px;
+  color: $text-color-primary;
+  position: relative;
+
+
+  >:first-child {
+    font-family: $text-font-family-primary-bold;
+    font-weight: bold;
+    font-size: 23px;
+    margin-bottom: 10px;
+  }
+}
