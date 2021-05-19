@@ -24,7 +24,7 @@ const Tenants = () => {
 
     return (
         <div className="tenants-list-wrapper">
-            <p>Consommations</p>
+            <p><span className="text-dark-theme">CONS</span>OMMATIONS</p>
             <ul>
                 {
                     datas.map((data) => (
@@ -32,7 +32,10 @@ const Tenants = () => {
                     ))
                 }
             </ul>
-
+            <div className="art-points" id="art-point-home-1"></div>
+            <div className="art-points" id="art-point-home-2"></div>
+            <div className="art-points" id="art-point-home-3"></div>
+            <div className="art-points" id="art-point-home-4"></div>
         </div>
     )
 }

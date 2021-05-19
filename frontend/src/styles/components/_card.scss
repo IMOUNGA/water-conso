@@ -4,7 +4,10 @@
   box-shadow: 0 0 4px rgba(0, 0, 0, .5);
   padding: 20px;
   margin-bottom: 25px;
-  background: linear-gradient(130deg, #73D7FA 55%, #fff);
+  background: linear-gradient(130deg, rgba(213, 242, 252, .9) 46%, #fff);
+  color: $text-color-dark-theme;
+  z-index: 99;
+
 
 
   ul {
@@ -44,8 +47,6 @@
   .totals-infos {
     display: flex;
     text-align: center;
-
-
   }
 
   li {
@@ -61,7 +62,7 @@
     position: absolute;
     top: 23px;
     right: 18px;
-    color: #AA78A6;
+    color: $text-color-green;
   }
 
   .moyenne-info {

@@ -9,7 +9,9 @@ const Home = () => {
         <div className="main-wrapper">
             <Navbar />
             <div className="apartment-tenants-infos">
-                <Apartment />
+                <div className="appartment-div-wrapper">
+                    <Apartment />
+                </div>
                 <Tenants />
             </div>
         </div>

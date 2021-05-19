@@ -1,4 +1,9 @@
 .apartment-tenants-infos {
   position: relative;
-  padding: 10px 10px;
+  padding-top: 10px;
+  height: 100%;
+
+  .appartment-div-wrapper {
+    padding: 0 10px;
+  }
 }

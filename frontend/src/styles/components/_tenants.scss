@@ -1,13 +1,58 @@
 .tenants-list-wrapper {
-  margin-top: 40px;
+  margin-top: 15px;
   color: $text-color-primary;
   position: relative;
-
+  background-color: $background-color-tenants-wrapper;
+  padding: 50px 10px;
+  border-radius: 60% 0 0 0;
 
   >:first-child {
     font-family: $text-font-family-primary-bold;
     font-weight: bold;
     font-size: 23px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+  }
+
+  .text-dark-theme {
+    color: $text-color-dark-theme;
+  }
+
+  .art-points {
+    position: absolute;
+    background-color: #fff;
+    border-radius: 50%;
+  }
+
+  #art-point-home-1 {
+    top: 57px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    left: 77%;
+  }
+
+  #art-point-home-2 {
+    top: 47%;
+    height: 27px;
+    width: 27px;
+    border-radius: 50%;
+    left: 29%;
+  }
+
+  #art-point-home-3 {
+    top: 92%;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    left: 80%;
+  }
+
+  #art-point-home-4 {
+    overflow: hidden;
+    top: 90%;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    left: 85%;
   }
 }
